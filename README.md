@@ -15,3 +15,7 @@ NodeJs allows us to create serve allowing it serve different content types from 
 It comes with built in method that allows us to create a server and as well listen to a port. Once listening and all configured correctly expected results are gotten at the console.
 While we used `res.end()` to send response, this only sends one response and then we need something like
 `res.write()` to be able to send multiple response.
+
+# Day Two - Fs Package
+NodeJs comes with a built-in package known as fs which gives us access to the file system or the file I/O. The fs system can perform in synchronous or asynchronous manner.
+We import the fs system by `require('fs')`;
