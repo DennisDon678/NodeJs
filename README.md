@@ -12,4 +12,4 @@ To run node file we simply write "node followed by the file name" in any termina
 
 
 NodeJs allows us to create serve allowing it serve different content types from our machine.
-It comes with built in method that allows us to create a server and as well listen to a port.
+It comes with built in method that allows us to create a server and as well listen to a port. Once listening and all configured correctly expected results are gotten at the console.
