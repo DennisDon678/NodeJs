@@ -19,3 +19,9 @@ While we used `res.end()` to send response, this only sends one response and the
 # Day Two - Fs Package
 NodeJs comes with a built-in package known as fs which gives us access to the file system or the file I/O. The fs system can perform in synchronous or asynchronous manner.
 We import the fs system by `require('fs')`;
+
+### To read from file
+To read the content of the file we use the `readFile()` method which can be synchronous or asynchronous.
+
+### Write to file
+We make use of the `writeFile()` method which can be synchronous or asynchronous.
