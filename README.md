@@ -8,7 +8,7 @@ NodeJs is built on google chrome's javascript v8 engine. It is open source , cro
 
 ### Running node:
 Node is uses javascript and all node files uses the .js extention.
-To run node file we simply write "node followed by the file name" in any terminal. 
+To run node file we simply write `node filename` in any terminal. 
 
 
 NodeJs allows us to create serve allowing it serve different content types from our machine.
