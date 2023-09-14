@@ -25,3 +25,7 @@ To read the content of the file we use the `readFile()` method which can be sync
 
 ### Write to file
 We make use of the `writeFile()` method which can be synchronous or asynchronous.
+
+### Append to file
+Sometimes we need to add new information to an existing file without change the already content in it.
+To achieve this we use the `appendFile()` method, can be synchronous or asynchronous as well.
