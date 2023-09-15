@@ -29,3 +29,6 @@ We make use of the `writeFile()` method which can be synchronous or asynchronous
 ### Append to file
 Sometimes we need to add new information to an existing file without change the already content in it.
 To achieve this we use the `appendFile()` method, can be synchronous or asynchronous as well.
+
+### Rename Files 
+The fs system all gives us the ability to rename a file through the `rename()` method. Can be synchronous or asynchronous as well.
