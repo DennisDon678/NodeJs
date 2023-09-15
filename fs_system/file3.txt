@@ -1,3 +1,0 @@
-We are writing this from our code to the text file, thanks
-New data appended from our code.
-New data appended from our code.
