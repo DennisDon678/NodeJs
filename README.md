@@ -35,3 +35,5 @@ The fs system all gives us the ability to rename a file through the `rename()` m
 
 ### Delete Files
 Finally the fs module gives us access to delete file via the `unlink()` method. Like others it can be synchronous or asynchronous.
+
+# Day Three
