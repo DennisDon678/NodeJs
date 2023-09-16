@@ -53,3 +53,13 @@ var reg = new RegExp('ab*');
 //It will match a , ab, abb , abbbbbb , abbbbbbb and so on.
 //But will not match b, bc, abc,aba , etc.
 ```
+
+### Modifiers 
+Regular expressions have some flags known as modifers that we can add to the expression to define the scope level.
+`g - global scope`
+`i - case insensitive`
+`m - multiline match`
+
+### Common Examples of Regular Expressions
+1 - Finding Specific text using Regular expression
+In this we shall be using the `data.txt` file and we shall be looking for the word man.
