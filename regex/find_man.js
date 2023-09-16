@@ -7,7 +7,8 @@ const text = fs.readFileSync("data.txt").toString();
 
 // Lets define our reg expression
 // We can also use the second method to define our expression
-const exp = /man/gim;
+// const exp = /man/gim;
+const exp = RegExp('man','gim');
 
 // Lets now match
 const myArray = text.match(exp);
