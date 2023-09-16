@@ -61,8 +61,10 @@ Regular expressions have some flags known as modifers that we can add to the exp
 `m - multiline match`
 
 ### Common Examples of Regular Expressions
-1 - Finding Specific text using Regular expression
+1 - Finding Specific text using Regular expression:
 In this we shall be using the `data.txt` file and we shall be looking for the word man.
 
-2 - Finding Number of tags using Regular expression
+2 - Finding Number of tags using Regular expression:
 We will look through an html file and find the number of tags that was used in the file. We shall use the `data.html` file.
+
+3 - Validating emails using regular expression : In this we are giving a email as input in order to find out whether it met all the contraints of being a valid one.The pattern will match the constraints such as @ (1 Occurrence) , domain is provided , sub-domain , etc. After matching , if the email is a valid one it will console "Valid" and "Please enter a valid email" if the email provided is not a valid one.
