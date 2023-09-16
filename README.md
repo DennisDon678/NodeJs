@@ -36,4 +36,20 @@ The fs system all gives us the ability to rename a file through the `rename()` m
 ### Delete Files
 Finally the fs module gives us access to delete file via the `unlink()` method. Like others it can be synchronous or asynchronous.
 
-# Day Three
+# Day Three - Regular Expressions in nodejs
+Regular expressions are sequence of characters that define a pattern in strings. We can employ in many areas such as validations and checking that give expression matches the desired format. We often refer to this as `regex `.
+
+### To create a regex
+In node there are different ways we can create a regex, first can be enclosing the expression in `/`, second can be through the use of the node function `regExp`.
+
+```
+var reg = /ab*/;
+//It will match a , ab, abb , abbbbbb , abbbbbbb and so on.
+//But will not match b, bc, abc,aba , etc.
+```
+
+```
+var reg = new RegExp('ab*');
+//It will match a , ab, abb , abbbbbb , abbbbbbb and so on.
+//But will not match b, bc, abc,aba , etc.
+```
