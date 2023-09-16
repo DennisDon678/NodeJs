@@ -63,3 +63,6 @@ Regular expressions have some flags known as modifers that we can add to the exp
 ### Common Examples of Regular Expressions
 1 - Finding Specific text using Regular expression
 In this we shall be using the `data.txt` file and we shall be looking for the word man.
+
+2 - Finding Number of tags using Regular expression
+We will look through an html file and find the number of tags that was used in the file. We shall use the `data.html` file.
